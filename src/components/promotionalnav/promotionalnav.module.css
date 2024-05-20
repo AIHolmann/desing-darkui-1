@@ -1,0 +1,51 @@
+.maincontainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  color: #f1f1f1;
+  background-color: #1e1e1e;
+  position: absolute;
+  width: 100vw;
+  left: 0;
+  padding: 0 8rem;
+  height: 10vh;
+}
+
+.starcontainer {
+  display: flex;
+}
+
+.starcontainer svg {
+  margin: 10px;
+}
+
+.unlockpremiumcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.unlockpremiumcontainer h4 {
+  font-weight: 500;
+  font-size: large;
+}
+
+.unlockpremiumcontainer p {
+  font-weight: 300;
+  font-size: 14px;
+  color: #a7a7a7;
+}
+
+.learncontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.learncontainer a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-size: 16px;
+}
