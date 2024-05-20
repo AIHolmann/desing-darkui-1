@@ -1,0 +1,42 @@
+.maincontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background-color: #282828;
+  padding: 4px;
+  width: 30vw;
+  border-radius: 22px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.container form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container form button {
+  background-color: #f1f1f1;
+  color: black;
+  height: 6vh;
+  border-radius: 22px;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.container form input {
+  margin-left: 5%;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: medium;
+  color: #f1f1f1;
+}
+
+.container form input::placeholder {
+  color: #a7a7a7;
+}

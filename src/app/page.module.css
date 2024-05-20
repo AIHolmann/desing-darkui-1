@@ -2,3 +2,22 @@
   padding: 0 8rem;
   min-height: 100vh;
 }
+
+.main h1 {
+  margin-top: 14vh;
+  font-weight: 800;
+  font-size: 62px;
+  word-spacing: 4px;
+}
+
+.main h1,
+.main h2 {
+  color: #f1f1f1;
+  text-align: center;
+}
+
+.main > div > h2 {
+  margin-top: 3vh;
+  font-size: medium;
+  font-weight: 300;
+}
