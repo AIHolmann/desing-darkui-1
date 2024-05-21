@@ -23,7 +23,7 @@ const Marketplace = () => {
   ];
 
   return (
-    <section className={styles.section}>
+    <section className={styles.section} style={{ cursor: "default" }}>
       <div className={styles.titlecontainer}>
         <h3>Explore What Makes Up A Marketplace</h3>
         <div className={styles.seeall}>

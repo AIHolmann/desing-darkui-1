@@ -116,7 +116,10 @@ const Promotionalnav = () => {
             </g>{" "}
           </g>
         </svg>
-        <div className={styles.unlockpremiumcontainer}>
+        <div
+          className={styles.unlockpremiumcontainer}
+          style={{ cursor: "default" }}
+        >
           <h4>Unlock Premium</h4>
           <p>Subscribe to get 50% OFF till 31st Dec</p>
         </div>

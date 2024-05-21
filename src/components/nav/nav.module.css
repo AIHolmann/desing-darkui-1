@@ -21,6 +21,10 @@
   margin: 0 6px;
 }
 
+.li {
+  cursor: pointer;
+}
+
 .options2 li {
   margin: 0 6px;
   text-align: center;

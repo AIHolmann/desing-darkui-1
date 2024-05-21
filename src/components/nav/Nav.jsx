@@ -4,24 +4,24 @@ const Nav = () => {
   return (
     <nav className={styles.nav}>
       <div>
-        <h2>/ hello@essential.io</h2>
+        <h2 style={{ cursor: "default" }}>/ hello@essential.io</h2>
       </div>
       <div>
         <ul className={styles.options}>
-          <li>Product</li>
-          <li>.</li>
-          <li>Resourses</li>
-          <li>.</li>
-          <li>Our Work</li>
+          <li className={styles.li}>Product</li>
+          <li style={{ cursor: "default" }}>.</li>
+          <li className={styles.li}>Resourses</li>
+          <li style={{ cursor: "default" }}>.</li>
+          <li className={styles.li}>Our Work</li>
         </ul>
       </div>
       <div>
         <ul className={styles.options2}>
-          <li>FAQ</li>
+          <li className={styles.li}>FAQ</li>
           <li>
-            <button>Download API</button>
+            <button className={styles.li}>Download API</button>
           </li>
-          <li>
+          <li className={styles.li}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32px"

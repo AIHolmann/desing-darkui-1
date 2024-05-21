@@ -56,6 +56,7 @@
 }
 
 .download button {
+  cursor: pointer;
   color: #f1f1f1;
   background-color: #151515;
   border: #f1f1f1 1px solid;
@@ -68,4 +69,9 @@
 
 .download svg {
   margin-left: 4px;
+}
+
+.reportdata button {
+  color: #151515;
+  background-color: #f1f1f1;
 }

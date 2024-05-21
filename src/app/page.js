@@ -9,7 +9,7 @@ export default function Home() {
     <main className={styles.main}>
       <Nav />
       <Promotionalnav />
-      <div>
+      <div style={{ cursor: "default" }}>
         <h1>
           Get The Application You
           <br />

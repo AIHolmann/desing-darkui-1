@@ -140,7 +140,13 @@ const Card = ({ title, rate, information }) => {
       <div className={styles.information}>
         <p>{information}</p>
       </div>
-      <div className={styles.download}>
+      <div
+        className={
+          title === "Report Data"
+            ? `${styles.download}  ${styles.reportdata}`
+            : styles.download
+        }
+      >
         <p>Download API</p>{" "}
         <button>
           Get{" "}
@@ -153,7 +159,7 @@ const Card = ({ title, rate, information }) => {
           >
             <path
               d="M7 17L17 7M17 7H8M17 7V16"
-              stroke="#f1f1f1"
+              stroke={title === "Report Data" ? "#151515" : "#f1f1f1"}
               strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"
