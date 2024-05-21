@@ -2,6 +2,7 @@ import Promotionalnav from "@/components/promotionalnav/Promotionalnav";
 import styles from "./page.module.css";
 import Nav from "@/components/nav/Nav";
 import Searchbar from "@/components/searchbar/Searchbar";
+import Marketplace from "@/components/marketplace/Markertplace";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         </h2>
       </div>
       <Searchbar />
+      <Marketplace />
     </main>
   );
 }

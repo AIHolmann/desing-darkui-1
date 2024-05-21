@@ -1,0 +1,32 @@
+.section {
+  height: 100%;
+  margin-top: 16px;
+}
+
+.titlecontainer {
+  color: #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 26px;
+}
+
+.titlecontainer h3 {
+  font-weight: 400;
+}
+
+.seeall {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.seeall a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.cardcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
