@@ -25,6 +25,12 @@
   cursor: pointer;
 }
 
+.li:hover {
+  color: white;
+  text-shadow: 0px 0px 1px white, 0px 0px 1px white, 0px 0px 1px white,
+    0px 0px 1px white;
+}
+
 .options2 li {
   margin: 0 6px;
   text-align: center;
